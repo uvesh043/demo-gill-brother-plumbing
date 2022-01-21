@@ -8,8 +8,6 @@
 IN PLUMBING AND DRAINS
 </h1>
 
-
-
 <div class="wrap" >
     <button class="button">REQUEST INFO</button>
 <button class="button">REQUEST QUOTE</button>
@@ -31,8 +29,6 @@ export default {
   height: 500px;
   display: flex;
   justify-content: center;
-  
-
 }
 .img{
   height: 500px;
@@ -42,10 +38,7 @@ export default {
 .img-text{
   color: white;
   position: relative;
-  /* background-color: black; */
-  /* opacity: 0.2; */
-  font-size: 1em;
-  /* right: 150px; */
+font-size: 1em;
   bottom: 400px;
   letter-spacing: 8px;
   width: 80%;
@@ -62,7 +55,6 @@ export default {
   display: flex;
   justify-content: space-between;
   width: 20vw;
-  /* border: 1px solid red; */
   top: 1rem;
 }
 .btn-section button{

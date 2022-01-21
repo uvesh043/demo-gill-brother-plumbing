@@ -59,10 +59,10 @@
 .footer-one {
   height: 100%;
   /* padding-top: 1rem; */
- }
- .main-li{
-     padding-top: 1rem;
- }
+}
+.main-li {
+  padding-top: 1rem;
+}
 .footer-one ul {
   display: flex;
   flex-direction: column;

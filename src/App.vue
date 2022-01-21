@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <Home/>
+    <Home />
   </div>
 </template>
 
 <script>
 import Home from "./views/Home.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Home
-  }
-}
+    Home,
+  },
+};
 </script>
 
 <style>
@@ -20,10 +20,12 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   /* color: #2c3e50; */
   /* margin-top: 60px; */
   margin: 0;
 }
-* { margin: 0 !important; }
+* {
+  margin: 0 !important;
+}
 </style>

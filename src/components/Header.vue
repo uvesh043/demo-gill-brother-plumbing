@@ -1,8 +1,10 @@
 <template>
   <div class="header">
-    <div class="logo-section"><img class="logo-img" src="../assets/Symbol.jpg"/></div>
+    <div class="logo-section">
+      <img class="logo-img" src="../assets/Symbol.jpg" />
+    </div>
     <ul class="headerSub">
-            <li class="active"><a>HOME</a></li>
+      <li class="active"><a>HOME</a></li>
       <li><a href="#AboutUS">ABOUT US</a></li>
       <li><a>OUR SERVICES</a></li>
       <li><a>TECHNOLOGIES</a></li>
@@ -17,12 +19,11 @@ export default {
 };
 </script>
 <style >
-.a{
+.a {
   text-decoration: none;
   color: aliceblue;
 }
 .header {
-  /* border: 1px solid red; */
   list-style: none;
   display: flex;
   font-size: 1.2rem;
@@ -33,19 +34,16 @@ export default {
   cursor: pointer;
   padding: 1.5rem;
 }
-.logo-section{
-  /* border: 2px solid red; */
-  /* width: 50%; */
+.logo-section {
   width: 150px;
   border-radius: 1rem;
 }
-.logo-img{
+.logo-img {
   width: 80px;
   height: 50px;
-object-fit: contain;
+  object-fit: contain;
 }
 .headerSub {
-  /* border: 1px solid rgb(0, 255, 128); */
   padding: 1rem;
   width: 40vw;
   list-style: none;
@@ -64,18 +62,16 @@ object-fit: contain;
   .headerSub {
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
-    /* border: 10px solid red; */
+    justify-content: space-around;
     height: 300px;
   }
 }
 .headerSub a:hover {
   color: #940202;
- transition: all 0.1s linear 0.1s;
+  transition: all 0.1s linear 0.1s;
 }
 .img {
   width: 20px;
   height: 20px;
-  /* border: 1px solid red; */
 }
 </style>

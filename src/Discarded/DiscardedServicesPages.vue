@@ -1,13 +1,13 @@
-<template >
-  <div id="AboutUs" class="main">
+<template>
+  <div class="services-main">
     <div class="section-title">
       <span class="border-top"></span>
-      <h1 class="main-title">ABOUT US</h1>
+      <h1 class="main-title">SERVICES</h1>
       <span class="border-top right"></span>
     </div>
     <div class="section-content">
       <div class="section-content-img">
-        <img src="../assets/about-us.jpg" />
+        <img src="../assets/plumbing-services1.png" />
       </div>
       <div class="content-text">
         <p class="content-text-one">
@@ -30,8 +30,9 @@
   </div>
 </template>
 <style >
-.main {
+.services-main {
   padding: 3rem;
+  border: 2px solid green;
 }
 .section-title {
   display: flex;
@@ -57,20 +58,6 @@
   border-top: 2px solid #095bb4;
   background-color: #095bb4;
 }
-.main-li {
-}
-@media only screen and (min-width: 320px) and (max-width: 1079px) {
-  .section-content {
-    display: flex;
-    flex-direction: column;
-  }
-  .section-content-img {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-  }
-}
 .section-content {
   display: flex;
   justify-content: space-between;
@@ -92,10 +79,10 @@
   bottom: 1rem;
 }
 </style>
-
-
 <script>
 export default {
-  name: "AboutUs.vue",
+  name: "Services.vue",
 };
 </script>
+
+

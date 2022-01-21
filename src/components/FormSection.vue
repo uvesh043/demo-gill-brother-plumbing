@@ -61,11 +61,9 @@ export default {
 .form-content {
   width: 50%;
   height: 80%;
-
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  /* align-content: space-around; */
 }
 .form-input {
   padding: 1rem;

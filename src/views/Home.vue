@@ -1,30 +1,27 @@
 <template>
   <div>
     <Header />
-    <Content />
+    <ImagesSectiont />
     <AboutUs />
-    <!-- <Services /> -->
-    <ServicesTwo/>
+    <ServicesSection />
     <FormSection />
     <Footer />
   </div>
 </template>
 <script>
 import Header from "../components/Header";
-import Content from "../components/Content";
+import ImagesSectiont from "../components/ImagesSectiont.vue";
 import AboutUs from "../components/AboutUs";
-// import Services from "../components/Services.vue";
-import ServicesTwo from "../components/ServicesTwo.vue";
+import ServicesSection from "../components/ServicesSection.vue";
 import FormSection from "../components/FormSection.vue";
 import Footer from "../components/Footer.vue";
 export default {
   name: "Home",
   components: {
     Header,
-    Content,
+    ImagesSectiont,
     AboutUs,
-    // Services,
-    ServicesTwo,
+    ServicesSection,
     FormSection,
     Footer,
   },
